@@ -6,7 +6,7 @@ from datetime import datetime
 DB_HOST = "localhost"
 DB_USER = "root"
 DB_PASSWORD = "123"  
-DB_NAME = "sensorarduino"
+DB_NAME = "sensorLight"
 TABLE_NAME = "light"
 
 def conn2DB(csv):
