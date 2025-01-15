@@ -5,7 +5,7 @@ from datetime import datetime
 
 DB_HOST = "localhost"
 DB_USER = "root"
-DB_PASSWORD = "123"  
+DB_PASSWORD = ""  
 DB_NAME = "sensorLight"
 TABLE_NAME = "light"
 

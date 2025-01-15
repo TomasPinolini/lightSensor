@@ -19,12 +19,17 @@ def main():
         if not ser:
             print("Serial port connection failed. Exiting program.")
             return
+        
         retriever.writeCSV(csv, ser)
+        print(ser)
 
         database = dumper.conn2DB(csv)
+        print(database)
+
         if not database:
             print("Database connection failed. Exiting program.")
             return
+        
         dumper.insertData(database, csv, time)
 
     except Exception as e:

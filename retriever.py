@@ -17,7 +17,7 @@ def conn2Port(SP, BR):
         print(f"Serial port error: {e}")
 
 
-
+  
 def writeCSV(csvfile, serial):
     with open(csvfile, mode='a', newline='') as file:
         writer = csv.writer(file)

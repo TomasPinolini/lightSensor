@@ -24,11 +24,11 @@ void loop() {
   light = analogRead(lPin);
   delay(1000);
 
-  if(light > 70){
+  if(light > 35){
     digitalWrite(red, HIGH);
     digitalWrite(yel, LOW);
     digitalWrite(gre, LOW);
-  }else if(light > 40){
+  }else if(light > 20){
     digitalWrite(red, LOW);
     digitalWrite(yel, HIGH);
     digitalWrite(gre, LOW);    
